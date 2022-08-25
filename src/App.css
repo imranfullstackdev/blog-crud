@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+
+/* for AddBlog background  */
+#dialog {
+  width: 100%;
+  height: 90vh;
+  background-color: #4c4c4c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* for AddBlog div */
+#dialog-content {
+  /* width: 471px; */
+  background-color: #fff;
+  border-radius: 10px;
+  color: #000;
+}
+
+/* for Home Page icon */
+.addtopageicon svg {
+  height: 50px;
+  width: 100px;
+  color: #3058a7;
+}
+
+/* For EditButton IN edit Page */
+.Editbutton {
+  background: #3058a7;
+  border: none;
+  width: 89px;
+  height: 36px;
+  border-radius: 6px;
+  color: whitesmoke;
+
+}
+/*  for High lighting the ViewBlog in ViewBlog page */
+#empdeslabel1 {
+  color:#3058a7;
+  border: 1px solid #f8f8f8;
+  padding: 10px;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 2px 3px 6px 1px rgba(0, 0, 0, .2) !important;
+  font-weight: 600;
+  width: 274px;
+  margin-left: auto;
+  margin-right: auto;
+} 
